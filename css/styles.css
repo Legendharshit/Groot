@@ -1,0 +1,167 @@
+body{
+	background-color:#30211B;
+}
+
+.container {
+	max-width:100%;
+	margin:10px;
+}
+
+.header {
+	background-color:#000;
+	color:#fff;
+	width:100%
+}
+
+.header ul {
+	list-style-type: none;
+	display:flex;
+	height:60px;
+	align-items:center;
+}
+
+.header ul li {
+	padding:10px 20px;
+	font-size:20px;
+	text-transform:capitalize;
+	cursor:pointer;
+}
+
+.header ul li a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.header ul li:hover {
+	background: rgba(255,255,255,.6);
+}
+
+.banner {
+	margin-top:-16px;
+}
+.banner img{
+	width:100%;
+}
+.about-container {
+	width:100%;
+}
+h1 {
+	text-align:center;
+	color:#A37D5C;
+}
+.about-container p {
+	color:#A37D5C;
+}
+.about-container img {
+	width:100%;
+}
+.about-container .left-container {
+	width:60%;
+	margin:0 10px 0px 0;
+}
+.about-container .left-container p{
+	font-size:20px;
+	text-align:justify;
+	margin:0 0 20px 0
+}
+.about-container .right-container {
+	width:40%;
+}
+.about-container .right-container .about-img{
+    background-image: url(../assets/images/about-img.jpg);
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-center {
+	text-align:center;
+}
+
+button {
+	padding:10px 20px;
+	border-radius: 8px;
+	background:#000;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	font-size: 15px;
+	font-weight:700;
+	box-shadow:0px 5px;
+	transition: .99s;
+}
+button:hover {
+	background:#A37D5C;
+	color:#30211B;
+	box-shadow:0px 5px #000;
+}
+
+.d-flex {
+	display:flex;
+	width:100%
+}
+
+table {
+	color: #fff;
+	width:100%;
+	border-color:white;
+}
+tr {
+	text-align:center;
+}
+
+.input-group {
+	display:flex;
+	width:100%;
+	margin: 10px 0;
+}
+
+.label {
+	min-width:20%;
+	color: #fff;
+	font-size: 30px;
+}
+
+.input-group .colon {
+	min-width:20%;
+	color: #fff;
+	font-size: 30px;
+}
+
+.input {
+	min-width:60%;
+}
+
+input {
+	width:100%;
+	padding:10px;
+	border-radius:8px;
+	border:none;
+}
+
+.footer {
+	background-color:#000;
+	color:#fff;
+	width:100%
+}
+
+.footer ul{
+	list-style-type: none;
+	display:flex;
+	height:60px;
+	align-items:center;
+}
+
+.footer ul li {
+	padding:10px 20px;
+	font-size:20px;
+	margin:0 0 0 50px;
+	cursor:pointer;
+	width:100%;
+}
+
+.footer ul li a {
+	text-decoration:none;
+	color:#fff;
+}
+
